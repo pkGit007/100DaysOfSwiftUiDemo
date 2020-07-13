@@ -13,6 +13,11 @@
 		A87A4E8E24BC3A1800498BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87A4E8D24BC3A1800498BF6 /* Assets.xcassets */; };
 		A87A4E9124BC3A1800498BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87A4E9024BC3A1800498BF6 /* Preview Assets.xcassets */; };
 		A87A4E9424BC3A1800498BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87A4E9224BC3A1800498BF6 /* LaunchScreen.storyboard */; };
+		A87A4E9C24BC3A5900498BF6 /* TextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A4E9B24BC3A5900498BF6 /* TextsView.swift */; };
+		A87A4E9E24BC3A5F00498BF6 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A4E9D24BC3A5E00498BF6 /* ImagesView.swift */; };
+		A87A4EA324BC3A8100498BF6 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A4EA024BC3A8100498BF6 /* OutlinedText.swift */; };
+		A87A4EA424BC3A8100498BF6 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A4EA124BC3A8100498BF6 /* UIView+Custom.swift */; };
+		A87A4EA524BC3A8100498BF6 /* AddOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A4EA224BC3A8100498BF6 /* AddOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A87A4E9024BC3A1800498BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A87A4E9324BC3A1800498BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A87A4E9524BC3A1800498BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87A4E9B24BC3A5900498BF6 /* TextsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsView.swift; sourceTree = "<group>"; };
+		A87A4E9D24BC3A5E00498BF6 /* ImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		A87A4EA024BC3A8100498BF6 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
+		A87A4EA124BC3A8100498BF6 /* UIView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
+		A87A4EA224BC3A8100498BF6 /* AddOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,9 @@
 				A87A4E8724BC3A1500498BF6 /* AppDelegate.swift */,
 				A87A4E8924BC3A1500498BF6 /* SceneDelegate.swift */,
 				A87A4E8B24BC3A1500498BF6 /* ContentView.swift */,
+				A87A4E9B24BC3A5900498BF6 /* TextsView.swift */,
+				A87A4E9D24BC3A5E00498BF6 /* ImagesView.swift */,
+				A87A4E9F24BC3A6800498BF6 /* Components */,
 				A87A4E8D24BC3A1800498BF6 /* Assets.xcassets */,
 				A87A4E9224BC3A1800498BF6 /* LaunchScreen.storyboard */,
 				A87A4E9524BC3A1800498BF6 /* Info.plist */,
@@ -73,6 +86,16 @@
 				A87A4E9024BC3A1800498BF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A87A4E9F24BC3A6800498BF6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A87A4EA224BC3A8100498BF6 /* AddOverlay.swift */,
+				A87A4EA024BC3A8100498BF6 /* OutlinedText.swift */,
+				A87A4EA124BC3A8100498BF6 /* UIView+Custom.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87A4EA424BC3A8100498BF6 /* UIView+Custom.swift in Sources */,
 				A87A4E8824BC3A1500498BF6 /* AppDelegate.swift in Sources */,
+				A87A4E9C24BC3A5900498BF6 /* TextsView.swift in Sources */,
 				A87A4E8A24BC3A1500498BF6 /* SceneDelegate.swift in Sources */,
 				A87A4E8C24BC3A1500498BF6 /* ContentView.swift in Sources */,
+				A87A4EA324BC3A8100498BF6 /* OutlinedText.swift in Sources */,
+				A87A4EA524BC3A8100498BF6 /* AddOverlay.swift in Sources */,
+				A87A4E9E24BC3A5F00498BF6 /* ImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
