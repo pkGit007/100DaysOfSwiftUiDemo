@@ -18,7 +18,10 @@ struct ContentView: View {
                 NavigationLink(destination: ImagesView()) {
                     Text("Images")
                 }
-            }.navigationBarTitle("List", displayMode: .inline)
+                NavigationLink(destination: ListView()) {
+                    Text("List, Buttons, Scroll")
+                }
+            }.navigationBarTitle("Menu", displayMode: .inline)
         }
     }
 }
